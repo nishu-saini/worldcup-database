@@ -9,7 +9,7 @@ fi
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
-# Delete data rows first in database if any..
+# first delete data rows in database if any..
 echo $( $PSQL "TRUNCATE games, teams" )
 
 # ADD data into teams table..
